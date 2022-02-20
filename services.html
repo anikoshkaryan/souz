@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Союз</title>
+    <link rel="icon" type="image/png" href="icon-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="icon-32.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput.min.css">
+    <link rel="stylesheet" href="css/nouislider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/new-style.css">
+  </head>
+  <body >
+    <div class="over-wrapper">
+      <div id="mobile-indicator"></div>
+      <div id="sm-indicator"></div>
+      <header>
+        <div class="container" id="services_page_container">
+          <div class="header-content">
+            <div class="row">
+              <div class="col header-col-1">
+                <div class="navbar-trigger"><span></span><span></span><span></span></div>
+              </div>
+              <div class="col header-col-2">
+                <div class="header-logo"><img src="images/logo.svg" alt="Союз"></div>
+              </div>
+              <div class="col header-col-3">
+                <div class="lang-selector-wrapper">
+                  <div class="lang-selector-trigger">
+                    <div class="lang-selector-val">
+                      <div class="lang-selector-flag"><img src="images/flag-ru.svg"></div>
+                      <div class="lang-selector-ttl">Ru</div>
+                    </div>
+                    <div class="lang-selector-arrow"></div>
+                  </div>
+                  <div class="lang-selector-dropdown">
+                    <div class="lang-selector-item"><a class="active" href="#">Ru</a></div>
+                    <div class="lang-selector-item"><a href="#">En</a></div>
+                    <div class="lang-selector-item"><a href="#">Es</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col header-col-4">
+                <div class="header-contacts">
+                  <div class="row">
+                    <div class="col header-contacts-col-1">
+                      <div class="header-phone"><a href="tel: 8 800 500-56-25">8 800 500-56-25</a></div>
+                    </div>
+                    <div class="col header-contacts-col-2">
+                      <div class="header-email"><a href="mailto:info@souyz.pro">info@souyz.pro</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-wrapper">
+          <div class="navbar-wrapper-inner">
+            <div class="navbar-top">
+              <div class="container">
+                <div class="row">
+                  <div class="col navbar-col-1">
+                    <div class="main-menu-wrapper">
+                      <div class="main-menu-section">
+                        <div class="ttl">Основное</div>
+                        <ul class="main-menu">
+                          <li><a href="index.html">Главная</a></li>
+                          <li><a href="#">Проекты</a></li>
+                          <li><a href="services.html">Услуги</a></li>
+                          <li><a href="#">О&nbsp;производстве</a></li>
+                          <li><a href="#">О&nbsp;компании</a></li>
+                          <li><a href="command.html">Команда</a></li>
+                          <li><a href="#">Отзывы</a></li>
+                          <li><a href="contacts.html">Контакты</a></li>
+                          <li><a href="#">Блог</a></li>
+                        </ul>
+                      </div>
+                      <div class="main-menu-section">
+                        <div class="ttl">Продукция</div>
+                        <ul class="main-menu">
+                          <li><a href="#">Виды конструкций</a></li>
+                          <li><a href="#">Основные элементы лесов</a></li>
+                          <li><a href="#">Профессиональные преимущества</a></li>
+                          <li><a href="#">Принципы работы</a></li>
+                          <li><a href="#">Безопасность</a></li>
+                        </ul>
+                      </div>
+                      <div class="main-menu-section">
+                        <div class="ttl">Сферы применения</div>
+                        <ul class="main-menu">
+                          <li><a href="industry.html">Промышленность</a></li>
+                          <li><a href="#">Строительство</a></li>
+                          <li><a href="#">Шоу-мероприятия</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col navbar-col-2">
+                    <div class="navbar-contacts">
+                      <div class="contacts-phone-wrapper">
+                        <div class="contacts-phone"><a href="tel:8 800 234 99 00">8 800 234 99 00</a></div>
+                        <div class="contacts-phone-info">
+                          <p>Звонок<br>бесплатный</p>
+                        </div>
+                      </div>
+                      <div class="contacts-address">
+                        <div class="contacts-address-city">г. Ижевск</div>
+                        <div class="contacts-address-item">
+                          <p>426039, Воткинское шоссе, 33а</p>
+                        </div>
+                      </div>
+                      <div class="contacts-email">
+                        <p><a href="mailto:info@soyuz.pro">info@soyuz.pro</a></p>
+                      </div>
+                      <div class="navbar-soclinks">
+                        <div class="contacts-soclinks-section">
+                          <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-telegram.svg"></a><a class="soclink" href="#"><img src="images/soclink-whatsapp.svg"></a><a class="soclink" href="#"><img src="images/soclink-messenger.png" width="25"></a><a class="soclink" href="#"><img src="images/soclink-viber.png" width="22"></a></div>
+                        </div>
+                        <div class="contacts-soclinks-section">
+                          <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-facebook.svg"></a><a class="soclink" href="#"><img src="images/soclink-instagram.svg"></a><a class="soclink" href="#"><img src="images/soclink-youtube.svg"></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar-bottom">
+              <div class="navbar-bottom-pic" style="background-image: url(images/navbar-bottom-pic.jpg)"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col navbar-bottom-col">
+                    <div class="navbar-catalog">
+                      <div class="navbar-catalog-descr">
+                        <h3>Хотите узнать больше?</h3>
+                        <p>Ознакомьтесь с презентацией о нашей компании</p>
+                        <div class="navbar-catalog-descr-button"><a class="btn btn-dl" href="#">
+                            <div class="btn-cont">
+                              <div class="btn-dl-arrow"></div>
+                              <div class="btn-dl-text">Загрузить маркетинг-кит</div>
+                            </div></a></div>
+                      </div>
+                      <div class="navbar-catalog-pic"><img src="images/navbar-bottom-catalog.png"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      
+
+    
+
+    <main>
+      <div id="services_page_wrapper">
+         
+         <section class="our_services">
+              <div class="our_services_wrapper">
+                   <div class="our_services_header_items_wrapper">
+                       <div class="our_services_header_info_item">
+                           <div class="our_services_header_links_wrapper">
+                               <a href="home.html" class="our_services_header_link home_html_link">Главная      /</a>  
+                                 <a href="services.html" class="our_services_header_link home_html_link">Услуги</a>
+                           </div>
+                             <div class="our_services_title_info_wrapper">
+                                 <h1 class="our_services_title">Наши услуги</h1>
+                                 <p class="our_services_info">
+                                   Компания «СОЮЗ» оказывает полный комплекс услуг в области строительных лесов для своих клиентов. 
+
+                                 </p>
+                                 <p class="our_services_info">
+                                   Мы всегда готовы решить поставленную перед нами задачу в любой точке мира. Начиная от совместного выявления потребностей, до поставки и монтажа конструкций лесов.
+                                 </p>
+                             </div>
+                       </div>
+                       <div class="our_services_header_img_item">
+                           <div class="our_services_header_img">
+                               <img src="images/services_img1.png">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="our_services_steps_items_wrapper">
+                        <div class="our_services_steps_item">
+                            <div class="our_services_steps_item_img">
+                                <img src="images/services_img2.png">
+                            </div>
+                            <div class="our_services_steps_item_info_box first_services_box">
+                                <p class="our_services_steps_num">01</p>
+                                <p class="our_services_steps_item_title">Продажа</p>
+                                <p class="our_services_steps_item_info">Покупая нашу продукцию, Вы можете быть уверены в её качестве, надежности и долговечности. Тем самым вы инвестируете в ваше будущее.</p>     
+                                <div class="our_services_steps_item_advantages_wrapper">
+                                     <div class="our_services_steps_item_advantages_info_icon"> 
+                                         <div class="our_services_steps_item_advantages_icon">
+                                              <svg width="104" height="60" viewBox="0 0 104 60" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="ic_delivery"><path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M79.1507 0.000163694L79.8568 0.0813965L78.458 12.2398C78.8214 12.2924 79.1289 12.3358 79.3433 12.3661C79.5562 12.3962 79.6772 12.4132 79.6699 12.4135C86.2766 12.2162 90.972 12.8094 93.8228 14.2583C100.056 17.4264 104.547 22.5491 103.942 28.5425C103.512 32.8104 102.767 39.474 101.708 48.5362L101.583 49.6042H96.3689C95.4936 54.8937 90.8981 58.9274 85.3604 58.9274C84.5121 58.9274 83.6859 58.8327 82.8916 58.6533C78.6288 57.8841 75.265 54.5288 74.4832 50.2704C74.4329 50.0505 74.389 49.8282 74.3518 49.6036H46.4128C45.5689 54.8498 41.0207 58.857 35.5366 58.857C35.1779 58.857 34.8232 58.8399 34.4732 58.8063C29.3626 58.5492 25.2199 54.6198 24.6307 49.6036H18.0723H16.7712L18.0482 32.3733H74.9866L77.3796 14.4261L77.4894 14.4407L79.1507 0.000163694ZM46.5531 46.8003H45.3374C44.5794 41.7756 40.2429 37.9238 35.0068 37.9238C29.7697 37.9238 25.4326 41.777 24.6758 46.803L24.5201 46.8035L24.5201 47.1871H19.3734L20.2922 34.7898H77.1024L78.3916 25.1206H85.0358C86.1953 25.1206 87.3232 25.4987 88.2485 26.1975L93.3424 30.0448C94.3911 30.8368 95.6693 31.2653 96.9835 31.2653H101.23C100.809 35.2152 100.209 40.523 99.4325 47.1876H96.5192V46.7285H95.0786C94.2903 41.7389 89.9703 37.9238 84.7591 37.9238C79.5469 37.9238 75.2261 41.7404 74.4391 46.7315L74.2019 46.7322V47.1571V47.1871H46.5531V46.8003ZM101.305 30.5545C101.391 29.7401 101.469 28.9886 101.538 28.3C102.016 23.5655 98.1698 19.1783 92.7279 16.4125C91.3083 15.691 89.2069 15.204 86.4373 14.9649L85.7024 24.4467C86.7782 24.5662 87.8066 24.9731 88.6768 25.6304L93.7708 29.4776C94.696 30.1765 95.8239 30.5545 96.9835 30.5545H101.305ZM79.7639 14.8283C81.9946 14.7622 83.9839 14.7905 85.7286 14.9102L84.9924 24.4099H78.4863L79.7639 14.8283ZM76.8407 49.7372C77.5876 52.9835 80.1422 55.5379 83.3859 56.2869C83.8313 56.3635 84.2893 56.4034 84.7566 56.4034C89.1922 56.4034 92.788 52.8076 92.788 48.372C92.788 43.9363 89.1922 40.3405 84.7566 40.3405C80.3209 40.3405 76.7252 43.9363 76.7252 48.372C76.7252 48.8373 76.7647 49.2935 76.8407 49.7372ZM35.0063 52.991C32.4548 52.991 30.3864 50.9227 30.3864 48.3712C30.3864 45.8197 32.4548 43.7513 35.0063 43.7513C37.5577 43.7513 39.6261 45.8197 39.6261 48.3712C39.6261 50.9227 37.5577 52.991 35.0063 52.991ZM35.006 52.2797C37.1649 52.2797 38.9151 50.5295 38.9151 48.3706C38.9151 46.2116 37.1649 44.4615 35.006 44.4615C32.847 44.4615 31.0969 46.2116 31.0969 48.3706C31.0969 50.5295 32.847 52.2797 35.006 52.2797ZM80.1387 48.3712C80.1387 50.9227 82.2071 52.991 84.7585 52.991C87.31 52.991 89.3784 50.9227 89.3784 48.3712C89.3784 45.8197 87.31 43.7513 84.7585 43.7513C82.2071 43.7513 80.1387 45.8197 80.1387 48.3712ZM88.6657 48.3706C88.6657 50.5295 86.9155 52.2797 84.7566 52.2797C82.5976 52.2797 80.8475 50.5295 80.8475 48.3706C80.8475 46.2116 82.5976 44.4615 84.7566 44.4615C86.9155 44.4615 88.6657 46.2116 88.6657 48.3706ZM43.0374 48.372C43.0374 52.8076 39.4416 56.4034 35.006 56.4034C30.5703 56.4034 26.9745 52.8076 26.9745 48.372C26.9745 43.9363 30.5703 40.3405 35.006 40.3405C39.4416 40.3405 43.0374 43.9363 43.0374 48.372ZM22.7574 6.08177H73.3385L73.5587 3.87971H22.9776L22.7574 6.08177ZM22.6864 6.79251H73.2674L72.912 10.3462H22.331L22.6864 6.79251ZM72.6205 13.2616L72.841 11.057H22.2599L22.0395 13.2616H72.6205ZM71.9173 21.7182H21.3363L21.5565 19.5158H72.1376L71.9173 21.7182ZM71.8463 22.4289H21.2652L20.9098 25.9827H71.4909L71.8463 22.4289ZM71.4198 26.6934L71.1994 28.8977H20.6183L20.8388 26.6934H71.4198ZM13.7776 24.9165C13.7776 24.7203 13.6185 24.5612 13.4222 24.5612H0.890437C0.69417 24.5612 0.535063 24.7203 0.535063 24.9165C0.535063 25.1128 0.69417 25.2719 0.890437 25.2719H13.4222C13.6185 25.2719 13.7776 25.1128 13.7776 24.9165ZM16.8655 13.1892C17.0618 13.1892 17.2209 13.3483 17.2209 13.5446C17.2209 13.7409 17.0618 13.9 16.8655 13.9H7.9979C7.80164 13.9 7.64253 13.7409 7.64253 13.5446C7.64253 13.3483 7.80164 13.1892 7.9979 13.1892H16.8655ZM16.2707 17.8091C16.2707 17.6128 16.1116 17.4537 15.9154 17.4537H9.4194C9.22313 17.4537 9.06402 17.6128 9.06402 17.8091C9.06402 18.0054 9.22313 18.1645 9.4194 18.1645H15.9154C16.1116 18.1645 16.2707 18.0054 16.2707 17.8091ZM76.2296 1.46191H20.7913L19.3698 15.6768H74.8081L76.2296 1.46191ZM19.3698 17.0983H74.8081L73.3866 31.3133H17.9484L19.3698 17.0983Z" fill="#003594"/></g></svg>
+                                         </div>
+                                          <p class="our_services_steps_item_advantages_info">
+                                            Оперативная поставка строительных лесов
+                                          </p>   
+                                     </div>
+                                     <div class="our_services_steps_item_advantages_info_icon"> 
+                                         <div class="our_services_steps_item_advantages_icon">
+                                           <svg width="94" height="60" viewBox="0 0 94 60" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="ic_stoke"><path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M6.46434 13.8878C6.993 13.7628 7.50651 14.0042 7.76938 14.4259L46.5751 5.12669L46.741 5.12675L84.6113 14.2331C84.884 13.9456 85.2942 13.7942 85.7215 13.878L89.7431 14.667V12.8112L46.6576 2.45086L3.42044 12.812V14.6079L6.46434 13.8878ZM7.95076 55.9714V15.1133L46.6577 5.83775L84.2933 14.8876C84.285 14.9449 84.2806 15.0037 84.2806 15.0637V55.9714H71.897C71.9074 55.9022 71.9128 55.8312 71.9128 55.759V27.3292C71.9128 26.5441 71.2763 25.9077 70.4913 25.9077H22.1605C21.3754 25.9077 20.739 26.5441 20.739 27.3292V55.759C20.739 55.8312 20.7444 55.9022 20.7548 55.9714H7.95076ZM5.53422 55.9714V16.5911L2.49032 17.3112C1.73152 17.4907 1.00391 16.9151 1.00391 16.1353V11.8591C1.00391 11.3002 1.38715 10.8143 1.9306 10.6841L46.3766 0.0332662C46.562 -0.0111631 46.7552 -0.0110876 46.9406 0.0334865L91.2339 10.6843C91.7769 10.8148 92.1596 11.3006 92.1596 11.8591V16.1353C92.1596 16.896 91.4652 17.4674 90.7188 17.321L86.6972 16.532V55.9714H88.8775C89.5448 55.9714 90.0858 56.5124 90.0858 57.1797C90.0858 57.847 89.5448 58.388 88.8775 58.388H2.97091C2.3036 58.388 1.76264 57.847 1.76264 57.1797C1.76264 56.5124 2.3036 55.9714 2.97091 55.9714H5.53422ZM23.5978 55.9714H21.4829C21.4619 55.9042 21.4505 55.8327 21.4505 55.7585V27.3287C21.4505 26.9361 21.7687 26.6179 22.1612 26.6179H70.492C70.8845 26.6179 71.2028 26.9361 71.2028 27.3287V55.7585C71.2028 55.8327 71.1914 55.9042 71.1703 55.9714H69.054C69.0644 55.9022 69.0698 55.8312 69.0698 55.759V52.8741H69.4252V50.4576H69.0698V47.1882H69.4252V44.7716H69.0698V41.5022H69.4252V39.0857H69.0698V30.1722C69.0698 29.3871 68.4333 28.7507 67.6483 28.7507H25.0035C24.2184 28.7507 23.582 29.3871 23.582 30.1722V55.759C23.582 55.8312 23.5874 55.9022 23.5978 55.9714ZM68.359 50.4576V47.1882H63.1338V50.4576H68.359ZM60.7173 50.4576V47.1882H57.4478V50.4576H60.7173ZM57.4478 52.8741H60.7173V55.9714H57.4478V52.8741ZM55.0313 50.4576V45.9799C55.0313 45.3126 55.5723 44.7716 56.2396 44.7716H60.7173V40.2939C60.7173 39.6266 61.2582 39.0857 61.9255 39.0857H68.359V34.2506H24.3039V33.5399H68.359V30.1729C68.359 29.7803 68.0408 29.4621 67.6483 29.4621H25.0035C24.6109 29.4621 24.2927 29.7803 24.2927 30.1729V55.7597C24.2927 55.8335 24.3039 55.9046 24.3248 55.9714H30.7285V52.8741H24.4371V50.4576H30.7285V47.1882H24.4371V44.7716H30.7285V41.5022H24.4371V39.0857H31.9367C32.6041 39.0857 33.145 39.6266 33.145 40.2939V44.7716H37.6227C38.29 44.7716 38.831 45.3126 38.831 45.9799V50.4576H43.3087C43.976 50.4576 44.517 50.9986 44.517 51.6659V55.9714H49.3453V51.6659C49.3453 50.9986 49.8863 50.4576 50.5536 50.4576H55.0313ZM51.7619 55.9714V52.8741H55.0313V55.9714H51.7619ZM63.1338 52.8741H68.359V55.7597C68.359 55.8335 68.3478 55.9046 68.3269 55.9714H63.1338V52.8741ZM68.359 41.5022V44.7716H63.1338V41.5022H68.359ZM36.4144 55.9714H33.145V52.8741H36.4144V55.9714ZM33.145 47.1882V50.4576H36.4144V47.1882H33.145ZM38.831 55.9714V52.8741H42.1004V55.9714H38.831ZM37.0862 15.9572H45.9733H46.684H54.1441C56.1068 15.9572 57.6978 17.5483 57.6978 19.511C57.6978 21.4736 56.1068 23.0647 54.1441 23.0647H46.684H45.9733H37.0862C35.1235 23.0647 33.5325 21.4736 33.5325 19.511C33.5325 17.5483 35.1235 15.9572 37.0862 15.9572ZM54.1453 22.3542H46.684V16.6682H54.1453C55.7154 16.6682 56.9883 17.9411 56.9883 19.5112C56.9883 21.0813 55.7154 22.3542 54.1453 22.3542ZM37.0874 16.6682H45.9733V22.3542H37.0874C35.5173 22.3542 34.2444 21.0813 34.2444 19.5112C34.2444 17.9411 35.5173 16.6682 37.0874 16.6682Z" fill="#003594"/></g></svg>
+                                         </div>
+                                          <p class="our_services_steps_item_advantages_info">Постоянное наличие товара на складе</p>   
+                                     </div>
+                                </div>
+                                  
+                                  <button class="order_a_free_calculation_btn">заказать бесплатный расчёт</button>
+                                 <a href="" class="choose_products_link">выбрать продукцию
+                                      
+                                      <svg width="47" height="16" viewBox="0 0 47 16" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="46.3066" y1="8.625" x2="0.500484" y2="8.625" stroke="white"/><line x1="46.1464" y1="8.28519" x2="38.5762" y2="0.714948" stroke="white"/><line x1="46.6172" y1="8.04887" x2="39.047" y2="15.6191" stroke="white"/></svg>
+                                 </a>
+                          </div>
+                     </div>
+                     <div class="our_services_steps_item">
+                            <div class="our_services_steps_item_info_box second_services_box">
+                                <p class="our_services_steps_num">02</p>
+                                <p class="our_services_steps_item_title">Аренда</p>
+                                <p class="our_services_steps_item_info">
+                                  Благодаря аренде, вам не нужно обустраивать склад, налаживать ремонт и очистку материала, а также организовывать логистику – мы все сделаем за вас!
+                                </p>     
+                                <p class="our_services_steps_item_info">В случае долгосрочной аренды, когда сумма платежей по аренде, приближается к стоимости партии лесов, Вы всегда можете рассчитывать на зачёт уплаченных платежей по аренды и выкупить оборудование по остаточной стоимости.</p>
+                                <div class="our_services_steps_item_advantages_wrapper">
+                                     <div class="our_services_steps_item_advantages_info_icon"> 
+                                         <div class="our_services_steps_item_advantages_icon">
+                                             <svg width="86" height="80" viewBox="0 0 86 80" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="ic_budget"><path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M28.6309 18.5935L35.0528 16.8905L35.0507 16.886L55.3126 7.57981L55.4698 7.87642C55.7392 8.38468 55.983 8.67983 56.1653 8.76309C56.3526 8.84866 56.7655 8.84866 57.376 8.73678L57.7955 8.65993V10.8593L58.95 10.5532V4.43078L28.6309 18.5935ZM57.0847 11.0478L39.0541 15.8294L55.0069 8.50235C55.2876 8.96913 55.5683 9.27178 55.8699 9.40958C56.1548 9.5397 56.5549 9.56561 57.0847 9.50083V11.0478ZM58.95 11.2885L25.6297 20.1248H31.3743L67.9467 10.8101L68.0562 11.1132C68.2914 11.7639 68.5223 12.1648 68.7128 12.3038C68.8934 12.4355 69.3567 12.5081 70.0747 12.4838L70.4421 12.4713V20.1248H71.7924V8.38355L58.95 11.707V11.2885ZM69.7314 20.1248V13.199C69.0623 13.1924 68.589 13.0932 68.294 12.878C68.0035 12.6661 67.7476 12.2616 67.503 11.6565L34.254 20.1248H69.7314ZM74.2089 20.1248H80.8256V40.1182L81.2505 40.1404C83.4029 40.2528 85.0905 42.0308 85.0905 44.1862V51.6316C85.0905 53.8007 83.3821 55.585 81.215 55.6791L80.8256 55.696V74.4613C80.8256 76.6988 79.0118 78.5126 76.7744 78.5126H1.64844V20.1248H19.6432L61.3665 0.634766V8.58547L74.2089 5.26203V20.1248ZM76.7744 76.0961C77.6772 76.0961 78.4091 75.3642 78.4091 74.4613V55.7783H74.2765V58.9861H73.5657V55.7783H65.3833C61.5801 55.7783 58.4952 52.6985 58.4891 48.8953L58.486 46.9755C58.4798 43.1679 61.5614 40.0763 65.369 40.0701L65.3802 40.0701H78.4091V22.5413H4.06498V26.5751H4.09429V27.2858H4.06498V70.9801L4.10051 70.9802L4.10026 71.6909L4.06498 71.6909V76.0961H76.7744ZM78.8759 53.3618H65.3833C62.9132 53.3618 60.9096 51.3615 60.9056 48.8914L60.9025 46.9716C60.8985 44.4986 62.9 42.4906 65.3729 42.4866L65.3802 42.4866H79.2916V42.458L81.1245 42.5537C81.993 42.599 82.674 43.3165 82.674 44.1862V51.6316C82.674 52.5069 81.9846 53.2268 81.1102 53.2648L78.8759 53.3618ZM11.2021 26.5751V27.2858H6.93766V26.5751H11.2021ZM18.3096 27.2858V26.5751H14.0451V27.2858H18.3096ZM25.4171 26.5751V27.2858H21.1526V26.5751H25.4171ZM32.5245 27.2858V26.5751H28.2601V27.2858H32.5245ZM39.632 26.5751V27.2858H35.3675V26.5751H39.632ZM46.7395 27.2858V26.5751H42.475V27.2858H46.7395ZM53.8469 26.5751V27.2858H49.5824V26.5751H53.8469ZM60.9544 27.2858V26.5751H56.6899V27.2858H60.9544ZM68.0619 26.5751V27.2858H63.7974V26.5751H68.0619ZM74.2872 29.0007H73.5764V28.352C73.5764 27.7632 73.0991 27.2858 72.5103 27.2858H70.9048V26.5751H72.5103C73.4917 26.5751 74.2872 27.3706 74.2872 28.352V29.0007ZM73.5816 69.289L74.2924 69.2885L74.2929 69.9372C74.2929 70.9188 73.4973 71.7143 72.5154 71.7143L70.9104 71.7137L70.9106 71.003L72.516 71.0035C73.1048 71.0035 73.5821 70.5262 73.5821 69.9374L73.5816 69.289ZM68.0677 71.0015L68.0674 71.7122L63.8029 71.7108L63.8032 71L68.0677 71.0015ZM60.9599 71.7109L60.9602 71.0001L56.6957 70.9986L56.6955 71.7094L60.9599 71.7109ZM53.8527 70.9973L53.8525 71.7081L49.588 71.7066L49.5882 70.9959L53.8527 70.9973ZM46.745 71.7053L46.7453 70.9946L42.4808 70.9931L42.4805 71.7038L46.745 71.7053ZM39.6378 70.9918L39.6375 71.7025L35.3731 71.701L35.3733 70.9903L39.6378 70.9918ZM32.5301 71.6998L32.5303 70.989L28.2659 70.9875L28.2656 71.6983L32.5301 71.6998ZM25.4229 70.9876L25.4226 71.6984L21.1581 71.6969L21.1584 70.9861L25.4229 70.9876ZM18.3152 71.6956L18.3154 70.9848L14.0509 70.9834L14.0507 71.6941L18.3152 71.6956ZM11.2079 70.9821L11.2077 71.6928L6.94321 71.6913L6.94346 70.9806L11.2079 70.9821ZM62.2035 47.9202C62.2035 50.4362 64.2731 52.4735 66.8233 52.4735C69.3736 52.4735 71.4432 50.4362 71.4432 47.9202C71.4432 45.4043 69.3736 43.367 66.8233 43.367C64.2731 43.367 62.2035 45.4043 62.2035 47.9202ZM70.7324 47.9201C70.7324 50.0409 68.9835 51.7625 66.8233 51.7625C64.6631 51.7625 62.9142 50.0409 62.9142 47.9201C62.9142 45.7992 64.6631 44.0776 66.8233 44.0776C68.9835 44.0776 70.7324 45.7992 70.7324 47.9201ZM74.2765 67.5156H73.5657V63.2511H74.2765V67.5156ZM74.2765 34.0899V32.4044H73.5657V34.0899H74.2765ZM74.2765 31.1144V31.1154H73.5657V31.1144H74.2765ZM73.5657 38.3552H74.2765V36.6685H73.5657V38.3552Z" fill="#003594"/></g></svg>
+                                         </div>
+                                          <p class="our_services_steps_item_advantages_info">
+                                            Существенная экономия бюджета
+                                          </p>   
+                                     </div>
+                                     <div class="our_services_steps_item_advantages_info_icon"> 
+                                         <div class="our_services_steps_item_advantages_icon">
+                                                 <img src="images/time.svg">
+                                         </div>
+                                          <p class="our_services_steps_item_advantages_info">Экономия времени на логистике и хранении</p>   
+                                     </div>
+                                </div>
+                                  
+                                  <button class="order_a_free_calculation_btn">заказать бесплатный расчёт</button>
+                                 <a href="" class="choose_products_link">выбрать продукцию
+                                      
+                                      <svg width="47" height="16" viewBox="0 0 47 16" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="46.3066" y1="8.625" x2="0.500484" y2="8.625" stroke="white"/><line x1="46.1464" y1="8.28519" x2="38.5762" y2="0.714948" stroke="white"/><line x1="46.6172" y1="8.04887" x2="39.047" y2="15.6191" stroke="white"/></svg>
+                                 </a>
+                          </div>
+                           <div class="our_services_steps_item_img">
+                                <img src="images/services_img3.png">
+                            </div>
+                     </div>
+
+
+                            <!-- sticky_begining -->
+
+
+<div class="container" id="sticky_img_box">
+                <div class="row">
+                     <div class="col catalog-descr-col-2 sticky-wrapper" style="min-height: 301px;">
+                    <div class="sticky-block" style="top: 131px; width: auto; margin-top: 0px;">
+                          <div class="our_services_steps_item_img sticky_img">
+                                <img src="images/services_img4.png">
+                            </div>
+                    </div>
+                  </div>
+
+                            <div class="our_services_steps_item_info_box third_services_box">
+                                <p class="our_services_steps_num">03</p>
+                                <p class="our_services_steps_item_title">Дополнительно</p>
+                                <p class="our_services_steps_item_info">
+                                 В случае необходимости, как при покупке, так и аренде, компания СОЮЗ всегда готова обучить ваших специалистов и оказать всестороннюю поддержку, где бы вы не находились.
+                                </p>     
+                                 <div class="our_services_additional_info_box">
+                                      <p class="our_services_additional_info_title1">Клиентская поддержка</p>
+                                      <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                             <p class="our_services_additional_info_title">Шеф-монтаж и супервайзинг</p>
+                                               <p class="our_services_additional_info_text">Благодаря присутствию наших специалистов на объекте, Вы всегда можете быть уверены, что проект будет реализован точно по чертежам и согласно требований охраны труда
+                                              </p>
+                                          </div>
+                                              
+                                      </div>
+                                       <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                               <p class="our_services_additional_info_title">Удаленная техническая поддержка</p>
+                                               <p class="our_services_additional_info_text">
+                                                  24/7 наши менеджеры и специалисты,  готовы оказать Вам бесплатную техническую поддержку по любому вопросу
+                                              </p>
+                                           </div>   
+                                      </div>
+                                          <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class=".our_services_additional_info_texts_title">
+                                                 <p class="our_services_additional_info_title">Логистика</p>
+                                               <p class="our_services_additional_info_text">
+                                                  При необходимости, мы организуем доставку строительных лесов. Наш опыт постановок насчитывает 13 стран!
+                                              </p>
+                                          </div>
+                                          
+                                      </div>
+                                 </div>
+                                <div class="our_services_additional_info_box">
+                                      <p class="our_services_additional_info_title1">Обучение персонала</p>
+                                      <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                            <p class="our_services_additional_info_title">Обучение монтажу </p>
+                                               <p class="our_services_additional_info_text">
+                                                  Теоретический курс, практические занятия, итоговая аттестация
+                                              </p>
+                                          </div>
+                                               
+                                      </div>
+                                       <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                              <p class="our_services_additional_info_title">Управлением материалом</p>
+                                               <p class="our_services_additional_info_text">
+                                                 Складирование, перевозка, загрузка, ремонт и отбраковка
+                                              </p>
+                                          </div>
+                                             
+                                      </div>
+                                          <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                            
+                                            <div class="our_services_additional_info_texts_title">
+                                              <p class="our_services_additional_info_title">Обучение проектированию и расчёту конструкций</p>
+                                               <p class="our_services_additional_info_text">
+                                                  Проведем тренинг для инженерно-технического персонала, с установкой специального 3D модуля для проектирования конструкций лесов в среде AutoCAD
+                                              </p>
+                                            </div> 
+                                              
+                                      </div>
+                                 </div>
+                          </div>
+                  
+                </div>
+              </div>
+
+
+                         <!-- sticky_end -->
+                           
+                      <div class="our_services_steps_item" id="mobile_box_services">
+                          <div class="our_services_steps_item_img">
+                                <img src="images/services_img4.png">
+                            </div>
+                            
+                            <div class="our_services_steps_item_info_box third_services_box">
+                                <p class="our_services_steps_num">03</p>
+                                <p class="our_services_steps_item_title">Дополнительно</p>
+                                <p class="our_services_steps_item_info">
+                                 В случае необходимости, как при покупке, так и аренде, компания СОЮЗ всегда готова обучить ваших специалистов и оказать всестороннюю поддержку, где бы вы не находились.
+                                </p>     
+                                 <div class="our_services_additional_info_box">
+                                      <p class="our_services_additional_info_title1">Клиентская поддержка</p>
+                                      <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                             <p class="our_services_additional_info_title">Шеф-монтаж и супервайзинг</p>
+                                               <p class="our_services_additional_info_text">Благодаря присутствию наших специалистов на объекте, Вы всегда можете быть уверены, что проект будет реализован точно по чертежам и согласно требований охраны труда
+                                              </p>
+                                          </div>
+                                              
+                                      </div>
+                                       <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                               <p class="our_services_additional_info_title">Удаленная техническая поддержка</p>
+                                               <p class="our_services_additional_info_text">
+                                                  24/7 наши менеджеры и специалисты,  готовы оказать Вам бесплатную техническую поддержку по любому вопросу
+                                              </p>
+                                           </div>   
+                                      </div>
+                                          <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class=".our_services_additional_info_texts_title">
+                                                 <p class="our_services_additional_info_title">Логистика</p>
+                                               <p class="our_services_additional_info_text">
+                                                  При необходимости, мы организуем доставку строительных лесов. Наш опыт постановок насчитывает 13 стран!
+                                              </p>
+                                          </div>
+                                          
+                                      </div>
+                                 </div>
+                                <div class="our_services_additional_info_box">
+                                      <p class="our_services_additional_info_title1">Обучение персонала</p>
+                                      <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                            <p class="our_services_additional_info_title">Обучение монтажу </p>
+                                               <p class="our_services_additional_info_text">
+                                                  Теоретический курс, практические занятия, итоговая аттестация
+                                              </p>
+                                          </div>
+                                               
+                                      </div>
+                                       <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                          <div class="our_services_additional_info_texts_title">
+                                              <p class="our_services_additional_info_title">Управлением материалом</p>
+                                               <p class="our_services_additional_info_text">
+                                                 Складирование, перевозка, загрузка, ремонт и отбраковка
+                                              </p>
+                                          </div>
+                                             
+                                      </div>
+                                          <div class="our_services_additional_info_title_icon">
+                                          <div class="our_services_additional_info_icon">
+                                               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><rect id="bullet" x="16.9688" y="1.41421" width="22" height="22" transform="rotate(45 16.9688 1.41421)" stroke="#003594" stroke-width="2"/></svg>
+
+                                          </div>
+                                            
+                                            <div class="our_services_additional_info_texts_title">
+                                              <p class="our_services_additional_info_title">Обучение проектированию и расчёту конструкций</p>
+                                               <p class="our_services_additional_info_text">
+                                                  Проведем тренинг для инженерно-технического персонала, с установкой специального 3D модуля для проектирования конструкций лесов в среде AutoCAD
+                                              </p>
+                                            </div> 
+                                              
+                                      </div>
+                                 </div>
+                          </div>
+                           
+                     </div>
+
+
+                  </div>
+              </div>
+         </section>
+     </div>
+
+
+    </main>
+
+  
+
+
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col footer-col-1">
+              <div class="footer-contacts">
+                <div class="contacts-form-wrapper">
+                  <h2>Написать нам</h2>
+                  <div class="contacts-form">
+                    <form>
+                      <div class="row">
+                        <div class="col contacts-form-col">
+                          <div class="form-group">
+                            <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                            <label class="placeholder" for="contacts_name">Как вас зовут?*</label>
+                            <input type="text" name="contacts_name" id="contacts_name" required>
+                          </div>
+                        </div>
+                        <div class="col contacts-form-col">
+                          <div class="form-group">
+                            <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                            <label class="placeholder" for="contacts_phone">Телефон*</label>
+                            <input class="input-phone" type="text" name="contacts_phone" id="contacts_phone" required>
+                          </div>
+                        </div>
+                        <div class="col contacts-form-col">
+                          <div class="form-agree">
+                            <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                          </div>
+                        </div>
+                        <div class="col contacts-form-col">
+                          <div class="form-footer">
+                            <button class="btn btn-submit" type="submit">
+                              <div class="btn-cont">
+                                <div class="btn-submit-text">Обсудить сотрудничество</div>
+                                <div class="btn-submit-arrow"></div>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="contacts-descr">
+                  <div class="contacts-phone-wrapper">
+                    <div class="contacts-phone"><a href="tel:8 800 234 99 00">8 800 234 99 00</a></div>
+                    <div class="contacts-phone-info">
+                      <p>Звонок<br>бесплатный</p>
+                    </div>
+                  </div>
+                  <div class="contacts-address">
+                    <div class="contacts-address-city">г. Ижевск</div>
+                    <div class="contacts-address-item">
+                      <p><span class="ttl">Офис продаж:</span> 426039, Воткинское шоссе, 33а</p>
+                    </div>
+                    <div class="contacts-address-item">
+                      <p><span class="ttl">Производство:</span> 426039, Воткинское шоссе, 33а</p>
+                    </div>
+                  </div>
+                  <div class="contacts-email">
+                    <p><a href="mailto:info@soyuz.pro">info@soyuz.pro</a></p>
+                  </div>
+                </div>
+                <div class="contacts-soclinks">
+                  <div class="row">
+                    <div class="col contacts-soclinks-col-1">
+                      <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-facebook.svg"></a><a class="soclink" href="#"><img src="images/soclink-instagram.svg"></a><a class="soclink" href="#"><img src="images/soclink-youtube.svg"></a></div>
+                    </div>
+                    <div class="col contacts-soclinks-col-2">
+                      <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-telegram.svg"></a><a class="soclink" href="#"><img src="images/soclink-whatsapp.svg"></a><a class="soclink" href="#"><img src="images/soclink-messenger.png" width="25"></a><a class="soclink" href="#"><img src="images/soclink-viber.png" width="22"></a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-content">
+                  <div class="row">
+                    <div class="col footer-content-col-1">
+                      <div class="footer-copy">
+                        <p>&copy;&nbsp;Завод строительных лесов<br>&laquo;Союз&raquo; 2021.<br>Все права защищены.</p>
+                      </div>
+                    </div>
+                    <div class="col footer-content-col-2">
+                      <div class="footer-dev-wrapper"><a class="footer-dev" href="https://paradigma-digital.ru" target="_blank">
+                          <div class="footer-dev-pic"><img src="images/paradigma-logo.svg"></div>
+                          <div class="footer-dev-descr">
+                            <p>Разработка сайта&nbsp;&mdash;<br>Paradigma</p>
+                          </div></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col footer-col-2">
+              <div class="footer-map" id="footerMap"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="modal fade side-modal serv-modal" id="servModal" tabindex="-1">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/close.svg"></button>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="row">
+              <div class="side-modal-l">
+                <div class="side-modal-l-inner">
+                  <div class="ajax-modal-content"></div>
+                </div>
+              </div>
+              <div class="side-modal-r">
+                <div class="ajax-modal-menu-wrapper">
+                  <ul class="ajax-modal-menu">
+                    <li><a href="#" data-url="load/serv-1.html" data-hash="service-1">Металлоконструкции</a></li>
+                    <li><a href="#" data-url="load/serv-2.html" data-hash="service-2">Резервуары</a></li>
+                    <li><a href="#" data-url="load/serv-3.html" data-hash="service-3">Фасады</a></li>
+                    <li><a href="#" data-url="load/serv-4.html" data-hash="service-4">Дымовые трубы</a></li>
+                    <li><a href="#" data-url="load/serv-5.html" data-hash="service-5">Кабеля</a></li>
+                    <li><a href="#" data-url="load/serv-6.html" data-hash="service-6">Объекты любого типа</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal estimate-modal" id="callbackModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content-wrapper">
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <div class="modal-content-inner">
+                <div class="form-modal-header">
+                  <h2>Заказать звонок</h2>
+                </div>
+                <div class="modal-form">
+                  <form id="callbackForm">
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                      <label class="placeholder" for="callback_name">Как вас зовут?*</label>
+                      <input type="text" name="callback_name" id="callback_name" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                      <label class="placeholder" for="callback_phone">Телефон*</label>
+                      <input class="input-phone" type="text" name="callback_phone" id="callback_phone" required>
+                    </div>
+                    <div class="form-agree">
+                      <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                    </div>
+                    <div class="form-footer">
+                      <button class="btn btn-submit" type="submit">
+                        <div class="btn-cont">
+                          <div class="btn-submit-text">Отправить заявку</div>
+                          <div class="btn-submit-arrow"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="estimateModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content-wrapper">
+            <div class="modal-content-pic"><img src="files/estimate-modal-pic.png" width="290"></div>
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <div class="modal-content-inner">
+                <div class="form-modal-header">
+                  <h2>Заказать звонок</h2>
+                </div>
+                <div class="modal-form">
+                  <form id="estimateForm">
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                      <label class="placeholder" for="estimate_name">Как вас зовут?*</label>
+                      <input type="text" name="estimate_name" id="estimate_name" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                      <label class="placeholder" for="estimate_phone">Телефон*</label>
+                      <input class="input-phone" type="text" name="estimate_phone" id="estimate_phone" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-message.svg"></div>
+                      <label class="placeholder" for="estimate_message">Опишите проект</label>
+                      <textarea type="text" name="estimate_message" id="estimate_message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-file">
+                        <input type="file" data-label="Прикрепить ТЗ">
+                      </div>
+                    </div>
+                    <div class="form-agree">
+                      <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                    </div>
+                    <div class="form-footer">
+                      <button class="btn btn-submit" type="submit">
+                        <div class="btn-cont">
+                          <div class="btn-submit-text">Запросить расчёт</div>
+                          <div class="btn-submit-arrow"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="catalogModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content-wrapper">
+            <div class="modal-content-pic"><img src="files/catalog-modal-pic.png" width="319"></div>
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <div class="modal-content-inner">
+                <div class="form-modal-header">
+                  <h2>Получить каталог</h2>
+                </div>
+                <div class="modal-form">
+                  <form id="catalogForm">
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                      <label class="placeholder" for="catalog_name">Как вас зовут?*</label>
+                      <input type="text" name="catalog_name" id="catalog_name" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                      <label class="placeholder" for="catalog_phone">Телефон*</label>
+                      <input class="input-phone" type="text" name="catalog_phone" id="catalog_phone" required>
+                    </div>
+                    <div class="form-agree">
+                      <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                    </div>
+                    <div class="form-footer">
+                      <button class="btn btn-submit" type="submit">
+                        <div class="btn-cont">
+                          <div class="btn-submit-text">Запросить расчёт</div>
+                          <div class="btn-submit-arrow"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="successModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-content-inner">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <h2><span class="red">Спасибо</span><br>за&nbsp;оказанное доверие</h2>
+              <div class="form-modal-lead success-modal-text">
+                <p>Наш специалист свяжется с&nbsp;Вами.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- get a payment popup -->
+       
+       <div class="get_a_payment_popup">
+           <div class="get_a_payment_popup_wrapper">
+                <div class="get_a_payment_popup_close">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31 1L16 16M16 16L1 31M16 16L1 1M16 16L31 31" stroke="#BAC5D8"/></svg>
+                </div>
+               <div class="get_a_payment_popup_items_wrapper">
+                   <div class="get_a_payment_popup_item payment_pics_item">
+                       <div class="get_a_payment_popup_item_img">
+                            <img src="images/popup_img2.png">
+                       </div>
+                   </div>
+                   <form action="" class="get_a_payment_popup_item payment_form_item">
+                          <h1 class="get_a_payment_popup_form_title">Получить расчёт</h1>
+                          <div class="get_a_payment_popup_form_input_icon_wrapper first_popup_input_box">
+                              <div class="get_a_payment_popup_form_input_icon ">
+                                <svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.60513 11.6106C12.6647 11.6106 15.147 9.12829 15.147 6.06872C15.147 3.0088 12.6644 0.555469 9.60513 0.555469C6.54556 0.555469 4.06328 3.03775 4.06328 6.09732C4.06328 9.15724 6.5459 11.6106 9.60513 11.6106ZM9.60513 1.71379C12.0088 1.71379 13.9601 3.66504 13.9601 6.06872C13.9601 8.47239 12.0088 10.4236 9.60513 10.4236C7.20146 10.4236 5.25021 8.47239 5.25021 6.06872C5.25021 3.66504 7.20146 1.71379 9.60513 1.71379Z" fill="#003594" stroke="#003594" stroke-width="0.1"/><path d="M1.35735 22.2293C1.35735 20.268 2.06788 18.3915 3.31918 16.8841C4.54166 15.4628 6.19036 14.4963 8.03816 14.1265C8.5509 14.0411 9.09122 13.9843 9.60234 13.9843C14.1513 13.9843 17.8473 17.6804 17.8473 22.2293V22.2793H17.8973H18.9843H19.0343V22.2293C19.0343 17.053 14.8071 12.826 9.60234 12.826C8.99862 12.826 8.39472 12.8835 7.81931 12.9985C5.71999 13.4012 3.82225 14.5227 2.44213 16.1328L2.44194 16.133C1.00423 17.8296 0.199023 19.9862 0.199023 22.2293V22.2793H0.249023H1.30735H1.35735V22.2293Z" fill="#003594" stroke="#003594" stroke-width="0.1"/></svg>
+                              </div>
+                              <div class="get_a_payment_popup_form_input">
+                                 <input type="" name="name" class="get_a_payment_popup_form_input_field" placeholder="Как вас зовут?">
+                              </div>
+                          </div>
+                          <div class="error_input_box">
+                          <div class="get_a_payment_popup_form_input_icon_wrapper">
+                              <div class="get_a_payment_popup_form_input_icon">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.04477 9.70642C5.78733 8.41921 7.24617 7.73269 8.19012 7.13199C8.70501 6.78873 8.79082 6.27385 8.61919 5.75896C8.10431 4.30012 7.16035 3.01291 6.55965 1.55407C6.47384 1.29662 6.2164 1.12499 5.95895 1.03918C3.47034 0.781737 1.66824 2.66965 1.15336 4.98664C-0.3913 11.8518 10.078 22.3211 17.029 20.8623C19.346 20.3474 21.2339 18.5453 20.9764 16.0567C20.8906 15.7992 20.719 15.5418 20.4616 15.456C19.0027 14.8553 17.7155 13.9113 16.2567 13.3964C15.7418 13.2248 15.2269 13.3106 14.8836 13.8255C14.2829 14.7695 13.5964 16.2283 12.3092 15.9709C10.078 15.5418 6.38802 11.8518 6.04477 9.70642Z" stroke="#003594"/></svg>
+                              </div>
+                              <div class="get_a_payment_popup_form_input">
+                                 <input type="" name="phone" class="get_a_payment_popup_form_input_field" placeholder="Телефон*?">
+                              </div>
+
+                          </div>
+                          <span class="get_a_payment_popup_error_text">Укажите телефон</span>
+                          </div>
+                          <div class="get_a_payment_popup_form_textrarea_icon_wrapper">
+
+                             <div class="get_a_payment_popup_form_textrarea_icon">
+                                 <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="19" height="23" stroke="#003594"/><line x1="6" y1="6.5" x2="14" y2="6.5" stroke="#003594"/><line x1="6" y1="9.5" x2="14" y2="9.5" stroke="#003594"/><line x1="6" y1="12.5" x2="14" y2="12.5" stroke="#003594"/></svg>
+                             </div>
+                               <textarea class="get_a_payment_popup_form_textrarea" placeholder="Опишите проект"></textarea>
+                            
+                          </div>
+                            <div class="get_a_payment_popup_form_file_input">
+                              <label for="fileinput_form" class=" write_us_input file_label"> 
+                                       <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Ic_attach" d="M2.08968 20.0109C-0.469014 17.451 -0.264212 14.1884 2.63775 11.2834L12.0009 1.95189C12.4747 1.47768 13.3473 0.905117 14.3746 0.722491C15.2532 0.565899 16.5602 0.639374 17.7965 1.87572C17.7977 1.8761 17.7984 1.87765 17.7992 1.87842C19.0687 3.14793 19.1814 4.40645 19.052 5.23859C18.8647 6.44601 18.1033 7.3169 17.7846 7.6353L8.36937 17.0212C8.04597 17.345 7.28711 18.105 6.27987 18.1052C5.67028 18.105 5.08884 17.8329 4.55196 17.296C4.5508 17.2948 4.55061 17.2942 4.54829 17.2923C4.07158 16.8156 3.16365 15.5077 5.01248 13.6562L14.3685 4.29055C14.5812 4.07746 14.9268 4.07746 15.1399 4.29017L15.14 4.29036C15.3529 4.50326 15.3529 4.84846 15.1402 5.06155L5.78444 14.427C4.51744 15.6959 5.10813 16.3094 5.31505 16.5163C5.31795 16.5192 5.32007 16.5213 5.32257 16.5238C5.6481 16.8493 5.96977 17.014 6.27968 17.0142C6.8345 17.014 7.35037 16.4978 7.59798 16.2498L17.0137 6.86333C17.2564 6.62111 17.8359 5.96061 17.9741 5.07139C18.1057 4.2244 17.7871 3.40943 17.0276 2.65C17.0269 2.64923 17.0261 2.64846 17.0253 2.64769C16.2993 1.92161 15.4719 1.63543 14.5657 1.79684C13.787 1.93531 13.1128 2.38271 12.7719 2.72405L3.40876 12.0555C1.96665 13.4992 -0.0237308 16.3535 2.86107 19.2399C5.54551 21.9235 8.20969 20.3864 9.97174 18.6243L17.6943 10.8528C17.9064 10.6391 18.2518 10.6381 18.4657 10.8504C18.4661 10.8508 18.4665 10.8512 18.4669 10.8516C18.6794 11.0641 18.6798 11.4085 18.468 11.6218L10.7443 19.3945C7.79816 22.3399 4.64414 22.5646 2.08968 20.0109Z" fill="#003594"/></svg>
+                                      
+                                        <span class="file_span">Прикрепить ТЗ</span>
+                                        <input type="file" id="fileinput_form" hidden>
+                              </label>
+
+                            </div>
+                            <p class="get_a_payment_popup_form_info">Нажимая кнопку, я даю даю разрешение на использование моих персональных данных в соответствии 
+                             <a href="" class="get_a_payment_popup_form_privacy_policy_link">с политикой конфиденциальности</a>
+                          </p>
+                          <button type="button" class="get_a_payment_popup_form_btn">запросить расчёт
+                              <svg width="61" height="20" viewBox="0 0 61 20" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="59.5" y1="10.5" x2="0.5" y2="10.5" stroke="white"/><line x1="59.3962" y1="10.1045" x2="49.6455" y2="0.353777" stroke="white"/><line x1="59.7986" y1="9.79984" x2="50.0479" y2="19.5506" stroke="white"/></svg>
+                          </button>
+                   </form>
+               </div>
+           </div>
+       </div>
+
+
+       <!-- confirm not a robot popup -->
+
+        <div class="not_a_robot_popup">
+             <div class="not_a_robot_popup_wrapper">
+                <div class="not_a_robot_popup_close">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31 1L16 16M16 16L1 31M16 16L1 1M16 16L31 31" stroke="#BAC5D8"/></svg>
+                </div>
+                <div class="not_a_robot_popup_img">
+                   <img src="images/robot_img.png">
+                </div>
+               <p class="not_a_robot_popup_title">Пожалуйста, подтвердите, что вы не робот:</p>
+               <div class="not_a_robot_popup_input_box">
+                  <div class="not_a_robot_popup_input_img">
+                      <img src="images/robot_img2.png">
+                  </div>
+             
+                  
+               </div>
+             </div>
+        </div>
+
+         <!-- thanks_popup -->
+         <div class="thanks_popup">
+             <div class="thanks_popup_wrapper">
+                <div class="thanks_popup_close">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M31 1L16 16M16 16L1 31M16 16L1 1M16 16L31 31" stroke="#BAC5D8"/></svg>
+                </div>
+                <div class="not_a_robot_popup_img">
+                   <img src="images/robot_img.png">
+                </div>
+               <p class="not_a_robot_popup_title">Спасибо! Ваша заявка успешно отправлена</p>
+               <p class="not_a_robot_popup_info">Вы успешно отправили заявку.</p>
+               <p class="not_a_robot_popup_info">Наш специалист свяжется с вами в ближайшее время.</p>
+               <p class="not_a_robot_popup_info">Тут любой текст в зависимости от окна, где отправлялась заявка</p>
+             </div>
+         </div>
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/jquery.mobile.custom.min.js"></script>
+      <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/additional-methods.min.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/wNumb.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/fancybox/jquery.fancybox.min.js"></script>
+      <script src="js/greensock/TweenMax.min.js"></script>
+      <script src="js/greensock/plugins/CSSRulePlugin.min.js"></script>
+      <script src="js/greensock/plugins/ScrollToPlugin.min.js"></script>
+      <script src="js/iscroll-probe.js"></script>
+      <script src="js/scrollmagic/ScrollMagic.min.js"></script>
+      <script src="js/scrollmagic/plugins/animation.gsap.min.js"></script>
+      <script src="js/jquery.mousewheel.js"></script>
+      <script src="js/bootstrap-fileinput/js/fileinput.min.js"></script>
+      <script src="js/nouislider.js"></script>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+      <script src="js/main.js"></script>
+
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+      <script src="js/new_script2.js"></script>
+
+      <!--script(src='js/animations.js')-->
+    </div>
+  </body>
+</html>

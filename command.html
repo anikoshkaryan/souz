@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Союз</title>
+    <link rel="icon" type="image/png" href="icon-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="icon-32.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput.min.css">
+    <link rel="stylesheet" href="css/nouislider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/new-style.css">
+  </head>
+  <body >
+    <div class="over-wrapper">
+      <div id="mobile-indicator"></div>
+      <div id="sm-indicator"></div>
+      <header>
+        <div class="container" id="command_page_container">
+          <div class="header-content">
+            <div class="row">
+              <div class="col header-col-1">
+                <div class="navbar-trigger"><span></span><span></span><span></span></div>
+              </div>
+              <div class="col header-col-2">
+                <div class="header-logo"><img src="images/logo.svg" alt="Союз"></div>
+              </div>
+              <div class="col header-col-3">
+                <div class="lang-selector-wrapper">
+                  <div class="lang-selector-trigger">
+                    <div class="lang-selector-val">
+                      <div class="lang-selector-flag"><img src="images/flag-ru.svg"></div>
+                      <div class="lang-selector-ttl">Ru</div>
+                    </div>
+                    <div class="lang-selector-arrow"></div>
+                  </div>
+                  <div class="lang-selector-dropdown">
+                    <div class="lang-selector-item"><img src="images/reviews/flag-ru.svg"><a class="active" href="#">Ru</a></div>
+                    <div class="lang-selector-item"><img src="images/icon-flag-en.png" alt=""><a href="#">En</a></div>
+                    <div class="lang-selector-item"><img src="images/icon-es.png" alt=""><a href="#">Es</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col header-col-4">
+                <div class="header-contacts">
+                  <div class="row">
+                    <div class="col header-contacts-col-1">
+                      <div class="header-phone"><a href="tel: 8 800 500-56-25">8 800 500-56-25</a></div>
+                    </div>
+                    <div class="col header-contacts-col-2">
+                      <div class="header-email"><a href="mailto:info@souyz.pro">info@souyz.pro</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-wrapper">
+          <div class="navbar-wrapper-inner">
+            <div class="navbar-top">
+              <div class="container">
+                <div class="row">
+                  <div class="col navbar-col-1">
+                    <div class="main-menu-wrapper">
+                      <div class="main-menu-section">
+                        <div class="ttl">Основное</div>
+                        <ul class="main-menu">
+                          <li><a href="index.html">Главная</a></li>
+                          <li><a href="#">Проекты</a></li>
+                          <li><a href="services.html">Услуги</a></li>
+                          <li><a href="#">О&nbsp;производстве</a></li>
+                          <li><a href="#">О&nbsp;компании</a></li>
+                          <li><a href="commands.html">Команда</a></li>
+                          <li><a href="#">Отзывы</a></li>
+                          <li><a href="contacts.html">Контакты</a></li>
+                          <li><a href="#">Блог</a></li>
+                        </ul>
+                      </div>
+                      <div class="main-menu-section">
+                        <div class="ttl">Продукция</div>
+                        <ul class="main-menu">
+                          <li><a href="#">Виды конструкций</a></li>
+                          <li><a href="#">Основные элементы лесов</a></li>
+                          <li><a href="#">Профессиональные преимущества</a></li>
+                          <li><a href="#">Принципы работы</a></li>
+                          <li><a href="#">Безопасность</a></li>
+                        </ul>
+                      </div>
+                      <div class="main-menu-section">
+                        <div class="ttl">Сферы применения</div>
+                        <ul class="main-menu">
+                          <li><a href="#">Промышленность</a></li>
+                          <li><a href="#">Строительство</a></li>
+                          <li><a href="#">Шоу-мероприятия</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col navbar-col-2">
+                    <div class="navbar-contacts">
+                      <div class="contacts-phone-wrapper">
+                        <div class="contacts-phone"><a href="tel:8 800 234 99 00">8 800 234 99 00</a></div>
+                        <div class="contacts-phone-info">
+                          <p>Звонок<br>бесплатный</p>
+                        </div>
+                      </div>
+                      <div class="contacts-address">
+                        <div class="contacts-address-city">г. Ижевск</div>
+                        <div class="contacts-address-item">
+                          <p>426039, Воткинское шоссе, 33а</p>
+                        </div>
+                      </div>
+                      <div class="contacts-email">
+                        <p><a href="mailto:info@soyuz.pro">info@soyuz.pro</a></p>
+                      </div>
+                      <div class="navbar-soclinks">
+                        <div class="contacts-soclinks-section">
+                          <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-telegram.svg"></a><a class="soclink" href="#"><img src="images/soclink-whatsapp.svg"></a><a class="soclink" href="#"><img src="images/soclink-messenger.png" width="25"></a><a class="soclink" href="#"><img src="images/soclink-viber.png" width="22"></a></div>
+                        </div>
+                        <div class="contacts-soclinks-section">
+                          <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-facebook.svg"></a><a class="soclink" href="#"><img src="images/soclink-instagram.svg"></a><a class="soclink" href="#"><img src="images/soclink-youtube.svg"></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar-bottom">
+              <div class="navbar-bottom-pic" style="background-image: url(images/navbar-bottom-pic.jpg)"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col navbar-bottom-col">
+                    <div class="navbar-catalog">
+                      <div class="navbar-catalog-descr">
+                        <h3>Хотите узнать больше?</h3>
+                        <p>Ознакомьтесь с презентацией о нашей компании</p>
+                        <div class="navbar-catalog-descr-button"><a class="btn btn-dl" href="#">
+                            <div class="btn-cont">
+                              <div class="btn-dl-arrow"></div>
+                              <div class="btn-dl-text">Загрузить маркетинг-кит</div>
+                            </div></a></div>
+                      </div>
+                      <div class="navbar-catalog-pic"><img src="images/navbar-bottom-catalog.png"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      
+
+    
+
+    <main>
+      <div id="command_page_wrapper">
+         
+          <section class="command">
+              <div class="command_wrapper">
+                  <div class="command_header_items_wrapper">
+                       <div class="command_header_item command_header_info_item">
+                           <div class="command_links_wrapper">
+                               <a href="home.html" class="command_link">Главная  /</a>
+                               <a href="command.html" class="command_link">Команда</a>                     
+                           </div>
+                             <h1 class="command_title">Команда</h1>
+                             <p class="command_info1">Добавить небольшой вступительный текст как на других страницах - про команду.</p>
+                              <div class="command_header_item_info_icon_wrapper">
+                                 <p class="command_header_item_info2">Мы верим, что главная  ценность нашей компании — <span>это команда профессионалов.</span></p>
+                                 <div class="command_header_item_info_icon">
+                                  <svg width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="icon_target" fill-rule="evenodd" clip-rule="evenodd" d="M0 35.5L35.5 0L71 35.5L35.5 71L0 35.5ZM0.711329 35.5001L35.5013 70.2901L70.2913 35.5001L35.5013 0.710134L0.711329 35.5001ZM33.9937 35.8439L31.8168 33.6079L29.5841 35.9012L31.761 38.1371L33.9937 40.4304L36.2264 38.1371L41.4174 32.8626L39.1847 30.5693L33.9937 35.8439ZM35.4995 23.667C41.9963 23.667 47.3329 28.9456 47.3329 35.5003C47.3329 42.055 42.0543 47.3336 35.4995 47.3336C28.9448 47.3336 23.6662 41.997 23.6662 35.5003C23.6662 29.0036 28.9448 23.667 35.4995 23.667ZM34.5138 13.7125C34.5138 13.4916 34.6929 13.3125 34.9138 13.3125H36.086C36.3069 13.3125 36.486 13.4916 36.486 13.7125V18.3361C36.486 18.557 36.3069 18.7361 36.086 18.7361H34.9138C34.6929 18.7361 34.5138 18.557 34.5138 18.3361V13.7125ZM34.9138 52.2637C34.6929 52.2637 34.5138 52.4428 34.5138 52.6637V56.7943C34.5138 57.0152 34.6929 57.1943 34.9138 57.1943H36.086C36.3069 57.1943 36.486 57.0152 36.486 56.7943V52.6637C36.486 52.4428 36.3069 52.2637 36.086 52.2637H34.9138ZM52.6638 36.4863C52.4429 36.4863 52.2638 36.3072 52.2638 36.0863V34.9141C52.2638 34.6932 52.4429 34.5141 52.6638 34.5141H56.7943C57.0153 34.5141 57.1943 34.6932 57.1943 34.9141V36.0863C57.1943 36.3072 57.0153 36.4863 56.7943 36.4863H52.6638ZM13.8049 36.0863C13.8049 36.3072 13.984 36.4863 14.2049 36.4863H18.3354C18.5564 36.4863 18.7354 36.3072 18.7354 36.0863V34.9141C18.7354 34.6932 18.5564 34.5141 18.3354 34.5141H14.2049C13.984 34.5141 13.8049 34.6932 13.8049 34.9141V36.0863Z" fill="white"/></svg>
+                                 </div>
+                             </div>
+                       </div>
+                       <div class="command_header_item command_header_img_item">
+                            <div class="command_item_img">
+                                <img src="images/command_img1.png">
+                            </div>
+                       </div>
+                  </div>
+
+              </div>
+          </section>
+          <section class="management">
+              <div class="management_wrapper">
+                 <h1 class="management_title">Руководство</h1>
+                  <div class="management_items_slider_btns_wrapper" >
+                      <div class="swiper" id="management_slider">
+                          
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+
+                                   <div class="management_slider_info_img_wrapper">
+                                       <div class="management_slider_info_item">
+                                           <h1 class="management_slider_info_title">Олег Смирнов</h1>
+                                           <p class="management_position">Генеральный директор </p>
+                                           <p class="management_slider_info1">В ЗСЛ "СОЮЗ" - отвечает за маркетинг и внедрение профессиональных строительных лесов на рынке.</p>
+                                           <p class="management_slider_info1">Окончил Ижевский Государственный технический университет (ФГБОУ ВО ИжГТУ имени М.Т. Калашникова):</p>
+                                           <p class="management_slider_info1">В 2000 году присуждена квалификация "Инженер".</p>
+                                           <p class="management_slider_info1">В 2001 году присуждена квалификация "Экономист-менеджер".</p>
+                                           <p class="management_slider_info1">В 2009 году прошел курс профессиональной переподготовки MBA The Open University Business School "Менеджмент в действии"</p>
+                                           <p class="management_slider_info1">С 2000 года поставил на федеральный уровень три бизнес проекта. Все проекты заняли ведущие места в своих отраслях по объему рынка.</p>
+                                       </div>
+                                       <div class="management_slider_img_item">
+                                          <img src="images/command_img12.png">
+                                       </div>
+                                   </div>
+
+                              </div>
+                              <div class="swiper-slide">
+
+                                   <div class="management_slider_info_img_wrapper">
+                                       <div class="management_slider_info_item">
+                                           <h1 class="management_slider_info_title">Олег Смирнов</h1>
+                                           <p class="management_position">Генеральный директор </p>
+                                           <p class="management_slider_info1">В ЗСЛ "СОЮЗ" - отвечает за маркетинг и внедрение профессиональных строительных лесов на рынке.</p>
+                                           <p class="management_slider_info1">Окончил Ижевский Государственный технический университет (ФГБОУ ВО ИжГТУ имени М.Т. Калашникова):</p>
+                                           <p class="management_slider_info1">В 2000 году присуждена квалификация "Инженер".</p>
+                                           <p class="management_slider_info1">В 2001 году присуждена квалификация "Экономист-менеджер".</p>
+                                           <p class="management_slider_info1">В 2009 году прошел курс профессиональной переподготовки MBA The Open University Business School "Менеджмент в действии"</p>
+                                           <p class="management_slider_info1">С 2000 года поставил на федеральный уровень три бизнес проекта. Все проекты заняли ведущие места в своих отраслях по объему рынка.</p>
+                                       </div>
+                                       <div class="management_slider_img_item">
+                                          <img src="images/command_img12.png">
+                                       </div>
+                                   </div>
+
+                              </div>
+                              <div class="swiper-slide">
+
+                                   <div class="management_slider_info_img_wrapper">
+                                       <div class="management_slider_info_item">
+                                           <h1 class="management_slider_info_title">Олег Смирнов</h1>
+                                           <p class="management_position">Генеральный директор </p>
+                                           <p class="management_slider_info1">В ЗСЛ "СОЮЗ" - отвечает за маркетинг и внедрение профессиональных строительных лесов на рынке.</p>
+                                           <p class="management_slider_info1">Окончил Ижевский Государственный технический университет (ФГБОУ ВО ИжГТУ имени М.Т. Калашникова):</p>
+                                           <p class="management_slider_info1">В 2000 году присуждена квалификация "Инженер".</p>
+                                           <p class="management_slider_info1">В 2001 году присуждена квалификация "Экономист-менеджер".</p>
+                                           <p class="management_slider_info1">В 2009 году прошел курс профессиональной переподготовки MBA The Open University Business School "Менеджмент в действии"</p>
+                                           <p class="management_slider_info1">С 2000 года поставил на федеральный уровень три бизнес проекта. Все проекты заняли ведущие места в своих отраслях по объему рынка.</p>
+                                       </div>
+                                       <div class="management_slider_img_item">
+                                          <img src="images/command_img12.png">
+                                       </div>
+                                   </div>
+
+                              </div>
+                          
+                          </div>
+                       
+                      </div>
+              
+                       <div class="management_slider_btns_wrapper">
+                             
+                               <div class="swiper-button-prev management_prev_btn"></div>
+                               <div class="swiper-button-next management_next_btn"></div>
+                       </div>
+                  </div>
+              </div>
+          </section>
+          <section class="key_persons">
+              <div class="key_persons_wrapper">
+                  <h1 class="key_persons_title">Ключевые лица</h1>
+                  <div class="key_persons_items_slider_btns_wrapper" >
+                      <div class="swiper" id="key_persons_slider">
+                          
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+
+                                   <div class="key_persons_slider_img_info_wrapper">
+                                         <div class="key_persons_slider_img">
+                                             <img src="images/key_persons_img.png">
+                                         </div>
+                                         <div class="key_persons_slider_info_box">
+                                             <p class="key_persons_slider_info_name">Наталья Перевозчикова</p>
+                                             <p class="key_persons_slider_info_position">Главный бухгалтер</p>
+                                         </div>
+                                   </div>
+
+                              </div>
+                             <div class="swiper-slide">
+
+                                   <div class="key_persons_slider_img_info_wrapper">
+                                         <div class="key_persons_slider_img">
+                                             <img src="images/key_persons_img.png">
+                                         </div>
+                                         <div class="key_persons_slider_info_box">
+                                             <p class="key_persons_slider_info_name">Иван Иванов</p>
+                                             <p class="key_persons_slider_info_position">Главный бухгалтер длинная должность сотрудника</p>
+                                         </div>
+                                   </div>
+
+                              </div>
+                              <div class="swiper-slide">
+
+                                   <div class="key_persons_slider_img_info_wrapper">
+                                         <div class="key_persons_slider_img">
+                                             <img src="images/key_persons_img.png">
+                                         </div>
+                                         <div class="key_persons_slider_info_box">
+                                             <p class="key_persons_slider_info_name">Наталья Перевозчикова</p>
+                                             <p class="key_persons_slider_info_position">Главный бухгалтер длинная должность сотрудника</p>
+                                         </div>
+                                   </div>
+
+                              </div>
+                           
+                             <div class="swiper-slide">
+
+                                   <div class="key_persons_slider_img_info_wrapper">
+                                         <div class="key_persons_slider_img">
+                                             <img src="images/key_persons_img.png">
+                                         </div>
+                                         <div class="key_persons_slider_info_box">
+                                             <p class="key_persons_slider_info_name">Наталья Перевозчикова</p>
+                                             <p class="key_persons_slider_info_position">Главный бухгалтер</p>
+                                         </div>
+                                   </div>
+
+                              </div>
+                          
+                          </div>
+                       
+                      </div>
+              
+                       <div class="key_persons_slider_btns_wrapper">
+                             
+                               <div class="swiper-button-prev key_persons_prev_btn"></div>
+                               <div class="swiper-button-next key_persons_next_btn"></div>
+                       </div>
+                  </div>
+              </div>
+          </section>
+          <section class="work_with_us">
+                <div class="work_with_us_wrapper"> 
+                     <h1 class="work_with_us_title">Работать с нами</h1>
+                     <p class="work_with_us_info1">Если вы хотите стать частью профессиональной команды, присылайте своё резюме в наш отдел кадров.</p>
+                     <form action="" class="work_with_us_form">
+                        <div class="work_with_us_form_item work_with_us_form_inputs_item">
+                           <div class="work_with_us_form_input_wrapper">
+                                <div class="work_with_us_form_input_icon">
+                                    <svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.60611 11.6096C12.6657 11.6096 15.148 9.12732 15.148 6.06774C15.148 3.00783 12.6653 0.554492 9.60611 0.554492C6.54654 0.554492 4.06426 3.03677 4.06426 6.09635C4.06426 9.15626 6.54688 11.6096 9.60611 11.6096ZM9.60611 1.71282C12.0098 1.71282 13.961 3.66407 13.961 6.06774C13.961 8.47142 12.0098 10.4227 9.60611 10.4227C7.20244 10.4227 5.25119 8.47142 5.25119 6.06774C5.25119 3.66407 7.20244 1.71282 9.60611 1.71282Z" fill="#003594" stroke="#003594" stroke-width="0.1"/><path d="M1.35833 22.2283C1.35833 20.2671 2.06886 18.3905 3.32015 16.8831C4.54263 15.4618 6.19133 14.4953 8.03914 14.1255C8.55188 14.0401 9.0922 13.9833 9.60331 13.9833C14.1522 13.9833 17.8483 17.6794 17.8483 22.2283V22.2783H17.8983H18.9852H19.0352V22.2283C19.0352 17.052 14.808 12.825 9.60331 12.825C8.99959 12.825 8.3957 12.8825 7.82029 12.9976C5.72096 13.4002 3.82323 14.5217 2.4431 16.1319L2.44292 16.1321C1.0052 17.8286 0.2 19.9852 0.2 22.2283V22.2783H0.25H1.30833H1.35833V22.2283Z" fill="#003594" stroke="#003594" stroke-width="0.1"/></svg>
+                                </div>
+
+                               
+                                    <label for="work_with_us_input_name" class="work_with_us_input_label">
+                                         <span class="work_with_us_input_text">Как вас зовут?</span>
+                                    <input type="text" name="name" class="work_with_us_input" id="work_with_us_input_name">
+                                    </label>
+                                  
+                                
+                           </div>
+                           <div class="work_with_us_email_phone_inputs_wrapper">
+                              <div class="work_with_us_form_input_wrapper2">
+                                <div class="work_with_us_form_input_icon">
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.04477 9.70642C5.78733 8.41921 7.24617 7.73269 8.19012 7.13199C8.70501 6.78873 8.79082 6.27385 8.61919 5.75896C8.10431 4.30012 7.16035 3.01291 6.55965 1.55407C6.47384 1.29662 6.2164 1.12499 5.95895 1.03918C3.47034 0.781737 1.66824 2.66965 1.15336 4.98664C-0.3913 11.8518 10.078 22.3211 17.029 20.8623C19.346 20.3474 21.2339 18.5453 20.9764 16.0567C20.8906 15.7992 20.719 15.5418 20.4616 15.456C19.0027 14.8553 17.7155 13.9113 16.2567 13.3964C15.7418 13.2248 15.2269 13.3106 14.8836 13.8255C14.2829 14.7695 13.5964 16.2283 12.3092 15.9709C10.078 15.5418 6.38802 11.8518 6.04477 9.70642Z" stroke="#003594"/></svg>
+                                </div>
+                                
+                                     <label for="work_with_us_phone_input" class="work_with_us_input_label">
+                                         <span class="work_with_us_input_text">Телефон *</span>
+                                    <input type="text" name="phonenumber" class="work_with_us_input" id="work_with_us_phone_input">
+                                     </label>
+                                   
+                                
+                             </div>
+                              <div class="work_with_us_form_input_wrapper2">
+                                <div class="work_with_us_form_input_icon">
+                                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Ic_mail" fill-rule="evenodd" clip-rule="evenodd" d="M20.68 0H1.32C0.590984 0 0 0.671573 0 1.5V14.5C0 15.3284 0.590984 16 1.32 16H20.68C21.409 16 22 15.3284 22 14.5V1.5C22 0.671573 21.409 0 20.68 0ZM21.12 14.5C21.12 14.7761 20.923 15 20.68 15H1.32C1.07699 15 0.88 14.7761 0.88 14.5V1.5C0.88 1.22386 1.07699 1 1.32 1H20.68C20.923 1 21.12 1.22386 21.12 1.5V14.5ZM13.6893 7.65029L18.5293 3.39529C18.6647 3.29091 18.738 3.1097 18.7195 2.92489C18.701 2.74009 18.5937 2.58223 18.4411 2.51513C18.2884 2.44802 18.1156 2.48276 17.9925 2.60529L11.0009 8.74029L4.00925 2.60529C3.88611 2.48276 3.71329 2.44802 3.56064 2.51513C3.40798 2.58223 3.30072 2.74009 3.28221 2.92489C3.26369 3.1097 3.33698 3.29091 3.47245 3.39529L8.58085 7.86029L3.49445 12.0903C3.29762 12.2532 3.25428 12.5666 3.39765 12.7903C3.54102 13.014 3.81682 13.0632 4.01365 12.9003L9.29365 8.50029L10.7325 9.78529C10.8907 9.92369 11.111 9.92369 11.2693 9.78529L12.9589 8.28529L17.9925 12.7003C18.1156 12.8228 18.2884 12.8576 18.4411 12.7905C18.5937 12.7233 18.701 12.5655 18.7195 12.3807C18.738 12.1959 18.6647 12.0147 18.5293 11.9103L13.6893 7.65029Z" fill="#003594"/></svg>
+                                </div>
+                               
+                                      <label for="work_with_us_email_input" class="work_with_us_input_label">
+                                        <span class="work_with_us_input_text">E-mail *</span>
+                                    <input type="text" name="email" class="work_with_us_input" id="work_with_us_email_input"> 
+                                      </label>
+                                    
+                                
+                           
+                          </div>
+                        </div>
+
+                            <div class="work_with_us_textarea_icon_wrapper">
+                                 <div class="work_with_us_textarea_icon">
+                                     <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="0.5" y="0.5" width="19" height="23" stroke="#003594"/><line x1="6" y1="6.5" x2="14" y2="6.5" stroke="#003594"/><line x1="6" y1="9.5" x2="14" y2="9.5" stroke="#003594"/><line x1="6" y1="12.5" x2="14" y2="12.5" stroke="#003594"/></svg>
+                                 </div>
+                                  <label for="textarea_field" class="work_with_us_input_label">
+                                       <span class="work_with_us_input_text">Напишите немного о себе</span>
+                                 <textarea class="work_with_us_textarea" id="textarea_field"></textarea>
+                                  </label>
+                                  
+                            </div>
+                              <p class="work_with_us_privacy_policy_info">Нажимая кнопку, я даю даю разрешение на использование моих персональных данных в соответствии с 
+                                <a href="" class="work_with_us_privacy_policy">политикой конфиденциальности</a> 
+                               </p>
+                               <button class="work_with_us_form_btn">
+                                   отправить резюме  <svg width="61" height="20" viewBox="0 0 61 20" fill="none" xmlns="http://www.w3.org/2000/svg"><line x1="59.5" y1="10.5" x2="0.5" y2="10.5" stroke="white"/><line x1="59.3964" y1="10.1045" x2="49.6457" y2="0.353777" stroke="white"/><line x1="59.7989" y1="9.79984" x2="50.0481" y2="19.5506" stroke="white"/></svg>
+                               </button>
+                           </div>
+                         
+                        <div class="drag_and_drop_wrapper">
+                            <div id="drag_and_drop">
+                                <div class="drag_and_drop_icon_info_wrapper">
+                                  <div class="drag_and_drop_icon">
+                                    <svg width="45" height="43" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Ic_Upload" fill-rule="evenodd" clip-rule="evenodd" d="M38.4054 8.99811C40.2594 9.90006 41.8497 11.2927 43.0059 13.027C44.3106 14.98 45 17.2637 45 19.6307C45 22.7782 43.7929 25.737 41.6011 27.9634C39.4052 30.1951 36.4829 31.4237 33.3765 31.4237H23.3006V41.3908C23.3006 41.8308 22.9408 42.1875 22.5 42.1875C22.0592 42.1875 21.6994 41.8308 21.6994 41.3908V31.4237H9.9907C4.48102 31.4237 0 26.8769 0 21.2885C0 17.6587 1.93087 14.2884 5.03569 12.4914L5.32547 12.3247L5.28293 11.9967C5.2403 11.6769 5.21974 11.3558 5.21974 11.0332C5.21974 7.05478 8.41263 3.81992 12.3362 3.81992C13.5391 3.81992 14.7339 4.13419 15.7886 4.72599L16.1567 4.93372L16.4245 4.60843C18.8442 1.68102 22.3873 0 26.1474 0C28.9516 0 31.6076 0.908776 33.8309 2.62942C35.8112 4.16148 37.3438 6.32216 38.1486 8.70833L38.2159 8.90653L38.4054 8.99811ZM23.3006 29.8291H33.3764C38.9026 29.8291 43.3987 25.2535 43.3988 19.631C43.3988 15.5037 40.9804 11.8083 37.2382 10.2175L36.888 10.0698L36.7836 9.7035C36.1272 7.40891 34.7305 5.34251 32.8491 3.88699C30.9087 2.38632 28.5905 1.5937 26.1474 1.5937C22.4904 1.5937 19.0695 3.4305 16.9972 6.51098L16.5028 7.24902L15.819 6.67778C14.8275 5.85096 13.6244 5.41362 12.3363 5.41362C9.29591 5.41362 6.82258 7.93511 6.82258 11.0333C6.82258 11.5513 6.8899 12.0625 7.02446 12.5531L7.20297 13.2077L6.5836 13.4865C3.55682 14.8559 1.60126 17.9186 1.60126 21.2888C1.60126 25.997 5.36403 29.8291 9.99068 29.8291H21.6993V19.9454L15.6939 25.9245C15.3904 26.2252 14.8644 26.2252 14.5609 25.9259C14.2492 25.6143 14.2492 25.1086 14.5609 24.7971L21.9341 17.4594C22.2376 17.1601 22.7622 17.1601 23.0657 17.4594L30.4376 24.7971C30.7507 25.1086 30.7507 25.6143 30.439 25.9259C30.1355 26.2279 29.6094 26.2252 29.306 25.9259L23.3006 19.9454V29.8291Z" fill="#BAC5D8"/></svg>
+                                 </div>
+                                   <p class="drag_and_drop_info1">Прикрепите резюме</p>
+
+                                   <p class="drag_and_drop_info2">Перетащите файлы в окно или прекрепите через <span>браузер</span> </p>
+                                 
+                               </div>
+                            </div>
+                             <div id="uploaded_file"></div>
+                          </div>
+
+      
+
+
+
+                        </div>
+
+
+                       
+
+                        
+                     </form>
+                </div>
+          </section>
+
+      </div>    
+
+    </main>
+
+  
+
+
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col footer-col-1">
+              <div class="footer-contacts">
+                <div class="contacts-form-wrapper">
+                  <h2>Написать нам</h2>
+                  <div class="contacts-form">
+                    <form>
+                      <div class="row">
+                        <div class="col contacts-form-col">
+                          <div class="form-group">
+                            <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                            <label class="placeholder" for="contacts_name">Как вас зовут?*</label>
+                            <input type="text" name="contacts_name" id="contacts_name" required>
+                          </div>
+                        </div>
+                        <div class="col contacts-form-col">
+                          <div class="form-group">
+                            <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                            <label class="placeholder" for="contacts_phone">Телефон*</label>
+                            <input class="input-phone" type="text" name="contacts_phone" id="contacts_phone" required>
+                          </div>
+                        </div>
+                        <div class="col contacts-form-col">
+                          <div class="form-agree">
+                            <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                          </div>
+                        </div>
+                        <div class="col contacts-form-col">
+                          <div class="form-footer">
+                            <button class="btn btn-submit" type="submit">
+                              <div class="btn-cont">
+                                <div class="btn-submit-text">Обсудить сотрудничество</div>
+                                <div class="btn-submit-arrow"></div>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="contacts-descr">
+                  <div class="contacts-phone-wrapper">
+                    <div class="contacts-phone"><a href="tel:8 800 234 99 00">8 800 234 99 00</a></div>
+                    <div class="contacts-phone-info">
+                      <p>Звонок<br>бесплатный</p>
+                    </div>
+                  </div>
+                  <div class="contacts-address">
+                    <div class="contacts-address-city">г. Ижевск</div>
+                    <div class="contacts-address-item">
+                      <p><span class="ttl">Офис продаж:</span> 426039, Воткинское шоссе, 33а</p>
+                    </div>
+                    <div class="contacts-address-item">
+                      <p><span class="ttl">Производство:</span> 426039, Воткинское шоссе, 33а</p>
+                    </div>
+                  </div>
+                  <div class="contacts-email">
+                    <p><a href="mailto:info@soyuz.pro">info@soyuz.pro</a></p>
+                  </div>
+                </div>
+                <div class="contacts-soclinks">
+                  <div class="row">
+                    <div class="col contacts-soclinks-col-1">
+                      <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-facebook.svg"></a><a class="soclink" href="#"><img src="images/soclink-instagram.svg"></a><a class="soclink" href="#"><img src="images/soclink-youtube.svg"></a></div>
+                    </div>
+                    <div class="col contacts-soclinks-col-2">
+                      <div class="soclinks"><a class="soclink" href="#"><img src="images/soclink-telegram.svg"></a><a class="soclink" href="#"><img src="images/soclink-whatsapp.svg"></a><a class="soclink" href="#"><img src="images/soclink-messenger.png" width="25"></a><a class="soclink" href="#"><img src="images/soclink-viber.png" width="22"></a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-content">
+                  <div class="row">
+                    <div class="col footer-content-col-1">
+                      <div class="footer-copy">
+                        <p>&copy;&nbsp;Завод строительных лесов<br>&laquo;Союз&raquo; 2021.<br>Все права защищены.</p>
+                      </div>
+                    </div>
+                    <div class="col footer-content-col-2">
+                      <div class="footer-dev-wrapper"><a class="footer-dev" href="https://paradigma-digital.ru" target="_blank">
+                          <div class="footer-dev-pic"><img src="images/paradigma-logo.svg"></div>
+                          <div class="footer-dev-descr">
+                            <p>Разработка сайта&nbsp;&mdash;<br>Paradigma</p>
+                          </div></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col footer-col-2">
+              <div class="footer-map" id="footerMap"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="modal fade side-modal serv-modal" id="servModal" tabindex="-1">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/close.svg"></button>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="row">
+              <div class="side-modal-l">
+                <div class="side-modal-l-inner">
+                  <div class="ajax-modal-content"></div>
+                </div>
+              </div>
+              <div class="side-modal-r">
+                <div class="ajax-modal-menu-wrapper">
+                  <ul class="ajax-modal-menu">
+                    <li><a href="#" data-url="load/serv-1.html" data-hash="service-1">Металлоконструкции</a></li>
+                    <li><a href="#" data-url="load/serv-2.html" data-hash="service-2">Резервуары</a></li>
+                    <li><a href="#" data-url="load/serv-3.html" data-hash="service-3">Фасады</a></li>
+                    <li><a href="#" data-url="load/serv-4.html" data-hash="service-4">Дымовые трубы</a></li>
+                    <li><a href="#" data-url="load/serv-5.html" data-hash="service-5">Кабеля</a></li>
+                    <li><a href="#" data-url="load/serv-6.html" data-hash="service-6">Объекты любого типа</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal estimate-modal" id="callbackModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content-wrapper">
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <div class="modal-content-inner">
+                <div class="form-modal-header">
+                  <h2>Заказать звонок</h2>
+                </div>
+                <div class="modal-form">
+                  <form id="callbackForm">
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                      <label class="placeholder" for="callback_name">Как вас зовут?*</label>
+                      <input type="text" name="callback_name" id="callback_name" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                      <label class="placeholder" for="callback_phone">Телефон*</label>
+                      <input class="input-phone" type="text" name="callback_phone" id="callback_phone" required>
+                    </div>
+                    <div class="form-agree">
+                      <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                    </div>
+                    <div class="form-footer">
+                      <button class="btn btn-submit" type="submit">
+                        <div class="btn-cont">
+                          <div class="btn-submit-text">Отправить заявку</div>
+                          <div class="btn-submit-arrow"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="estimateModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content-wrapper">
+            <div class="modal-content-pic"><img src="files/estimate-modal-pic.png" width="290"></div>
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <div class="modal-content-inner">
+                <div class="form-modal-header">
+                  <h2>Заказать звонок</h2>
+                </div>
+                <div class="modal-form">
+                  <form id="estimateForm">
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                      <label class="placeholder" for="estimate_name">Как вас зовут?*</label>
+                      <input type="text" name="estimate_name" id="estimate_name" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                      <label class="placeholder" for="estimate_phone">Телефон*</label>
+                      <input class="input-phone" type="text" name="estimate_phone" id="estimate_phone" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-message.svg"></div>
+                      <label class="placeholder" for="estimate_message">Опишите проект</label>
+                      <textarea type="text" name="estimate_message" id="estimate_message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-file">
+                        <input type="file" data-label="Прикрепить ТЗ">
+                      </div>
+                    </div>
+                    <div class="form-agree">
+                      <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                    </div>
+                    <div class="form-footer">
+                      <button class="btn btn-submit" type="submit">
+                        <div class="btn-cont">
+                          <div class="btn-submit-text">Запросить расчёт</div>
+                          <div class="btn-submit-arrow"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="catalogModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content-wrapper">
+            <div class="modal-content-pic"><img src="files/catalog-modal-pic.png" width="319"></div>
+            <div class="modal-content">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <div class="modal-content-inner">
+                <div class="form-modal-header">
+                  <h2>Получить каталог</h2>
+                </div>
+                <div class="modal-form">
+                  <form id="catalogForm">
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-name.svg"></div>
+                      <label class="placeholder" for="catalog_name">Как вас зовут?*</label>
+                      <input type="text" name="catalog_name" id="catalog_name" required>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group-ico"><img src="images/form-group-phone.svg"></div>
+                      <label class="placeholder" for="catalog_phone">Телефон*</label>
+                      <input class="input-phone" type="text" name="catalog_phone" id="catalog_phone" required>
+                    </div>
+                    <div class="form-agree">
+                      <p>Нажимая кнопку, я&nbsp;даю даю разрешение на&nbsp;использование моих персональных данных в&nbsp;соответствии с <a href="#">политикой конфиденциальности</a></p>
+                    </div>
+                    <div class="form-footer">
+                      <button class="btn btn-submit" type="submit">
+                        <div class="btn-cont">
+                          <div class="btn-submit-text">Запросить расчёт</div>
+                          <div class="btn-submit-arrow"></div>
+                        </div>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade form-modal" id="successModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-content-inner">
+              <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img class="svg-inline" src="images/form-modal-close.svg"></button>
+              <h2><span class="red">Спасибо</span><br>за&nbsp;оказанное доверие</h2>
+              <div class="form-modal-lead success-modal-text">
+                <p>Наш специалист свяжется с&nbsp;Вами.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+     
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/jquery.mobile.custom.min.js"></script>
+      <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/additional-methods.min.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/wNumb.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/fancybox/jquery.fancybox.min.js"></script>
+      <script src="js/greensock/TweenMax.min.js"></script>
+      <script src="js/greensock/plugins/CSSRulePlugin.min.js"></script>
+      <script src="js/greensock/plugins/ScrollToPlugin.min.js"></script>
+      <script src="js/iscroll-probe.js"></script>
+      <script src="js/scrollmagic/ScrollMagic.min.js"></script>
+      <script src="js/scrollmagic/plugins/animation.gsap.min.js"></script>
+      <script src="js/jquery.mousewheel.js"></script>
+      <script src="js/bootstrap-fileinput/js/fileinput.min.js"></script>
+      <script src="js/nouislider.js"></script>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+      <script src="js/main.js"></script>
+
+      <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+      <script src="js/new_script2.js"></script>
+
+      <!--script(src='js/animations.js')-->
+    </div>
+  </body>
+</html>
